@@ -1,0 +1,151 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar-brand,#footer h1{
+    font-family: 'Pirata One', cursive;
+    font-size: 28px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Navbar Ends */
+
+/* Game Section */
+#game-section{
+    width: 100%;
+    height: 100%;
+    background: url('../images/backtest.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main{
+    background-color: rgba(59, 245, 42, 0.3);
+    color: #fff;
+}
+#main-per-second{
+    padding: 10px;
+}
+.nav-link{
+    font-size: 18px;
+    color: #fff;
+}
+.per-second-header{
+    text-align: center;
+    margin: 40px 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+#main-wrapper{
+    padding: 20px;
+}
+#main-wrapper .main-wrapper-content-1{
+    text-align: center;
+    color: #fff;
+}
+#main-wrapper .main-wrapper-content-1 button{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    border: none;
+}
+.main-wrapper-restart{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.main-wrapper-restart i{
+    color:#fff;
+    
+}
+
+#main-wrapper #showReslut{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(44, 250, 61, 0.6);
+    color: gainsboro;
+    padding: 20px;
+    display: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#main-wrapper #showReslut img{
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#showReslut #ninjaClickCps{
+    color: greenyellow;
+    font-size: 20px;
+}
+
+#ninjaClicks{
+    color: greenyellow;
+    font-size: 20px;
+}
+
+/* ----->Try To B */
+#showReslut .try-to-be{
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+#showReslut .try-to-be h3{
+    text-align: center;
+}
+
+/* Game Section Ends */
+
+/* How to Improve Section */
+
+#how-to-improve{
+    padding: 100px;
+    
+}
+#how-to-improve h1{
+    text-align: center;
+}
+#how-to-improve img{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 10px;
+}
+
+/* How to Improve Ends  */
+
+
+/* FOOTER starts here */
+#footer{
+    padding: 30px;
+    text-align: center;
+}
+#footer a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 8px;
+}
+#footer a:nth-child(1):hover{
+    color: #6EC72D;
+}
+#footer a:nth-child(2):hover{
+    color: #6EC72D;
+}
+#footer a:nth-child(3):hover{
+    color: #4267B2;
+}
+#footer a:nth-child(4):hover{
+    color: #1DA1F2;
+}
+#footer a:nth-child(6):hover{
+    color: red;
+}
+/* FOOTER Ends here */

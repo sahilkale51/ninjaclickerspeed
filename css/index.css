@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.alert{
+    margin-bottom: 0px;
+}
+
+#main{
+    margin-bottom: 10px;
+}
+.navbar-brand,#footer h1{
+    font-family: 'Pirata One', cursive;
+    font-size: 28px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* WHY US */
+#why-us{
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#why-us h2 span{
+    font-family: 'Pirata One', cursive;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#why-us img{
+    border-radius: 50%;
+}
+#why-us .modal .modal-content{
+    color: #000000;
+    padding: 20px;
+}
+#why-us .modal .modal-content img{
+    color: #000000;
+    width: 100%;
+    height: 300px;
+}
+#why-us .why-us-icons{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* WHY US  Ends*/
+
+/* How CPs Usful */
+#how-cps-uselful{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+#how-cps-uselful .bottom-up-mr{
+    margin: 20px 0;
+}
+
+#how-cps-uselful .how-to-image{
+    width: 100%;
+    height: 280px;
+}
+#how-cps-uselful .how-to-text{
+    padding: 5px;
+}
+/* FOOTER starts here */
+#footer{
+    padding: 30px;
+    text-align: center;
+}
+#footer a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 8px;
+}
+#footer a:nth-child(1):hover{
+    color: #6EC72D;
+}
+#footer a:nth-child(2):hover{
+    color: #6EC72D;
+}
+#footer a:nth-child(3):hover{
+    color: #4267B2;
+}
+#footer a:nth-child(4):hover{
+    color: #1DA1F2;
+}
+#footer a:nth-child(6):hover{
+    color: red;
+}
+/* FOOTER Ends here */
